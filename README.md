@@ -85,9 +85,11 @@ AI Red Teamingを実施するためのツール群。「何から始めればい
 
 ### その他のツール
 
+- [ai-evaluation](https://github.com/future-agi/ai-evaluation) - オープンソースのLLM評価フレームワーク。50+のメトリクス、LLM-as-Judge拡張、ガードレールスキャナー（jailbreak、PII、プロンプトインジェクション）、CI/CD対応のAutoEvalパイプラインを提供
 - [ARTKIT](https://github.com/BCG-X-Official/artkit) - 自動化マルチターン攻撃シミュレーション
 - [Giskard](https://github.com/Giskard-AI/giskard) - エージェント・RAG・チャットボット向け動的マルチターンテスト
 - [Mindgard](https://mindgard.ai/) - モデル非依存のAIセキュリティテスト。MITRE ATLAS/OWASP準拠、自動偵察機能。[CLI (PyPI)](https://pypi.org/project/mindgard/)
+- [traceAI](https://github.com/future-agi/traceAI) - オープンソースのOpenTelemetryネイティブなLLM・エージェント向けトレーシング。Python、TypeScript、Java、C#で50+フレームワーク（OpenAI、Anthropic、LangChain、LlamaIndex、CrewAI、Bedrock）を自動計装。ベンダーロックインなし
 - [AISafetyLab](https://github.com/thu-coai/AISafetyLab) - 清華大学による攻撃・防御・評価の包括フレームワーク
 
 ### 商用ツール・サービス
