@@ -89,6 +89,7 @@ AI Red Teamingを実施するためのツール群。「何から始めればい
 - [Giskard](https://github.com/Giskard-AI/giskard) - エージェント・RAG・チャットボット向け動的マルチターンテスト
 - [Mindgard](https://mindgard.ai/) - モデル非依存のAIセキュリティテスト。MITRE ATLAS/OWASP準拠、自動偵察機能。[CLI (PyPI)](https://pypi.org/project/mindgard/)
 - [AISafetyLab](https://github.com/thu-coai/AISafetyLab) - 清華大学による攻撃・防御・評価の包括フレームワーク
+- [Future AGI Protect](https://github.com/future-agi/future-agi) - プロンプトインジェクション、ジェイルブレイク、PII、有害性をテキスト・画像・音声で検出するオープンソースのマルチモーダルガードレール
 
 ### 商用ツール・サービス
 
