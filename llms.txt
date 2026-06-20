@@ -12,12 +12,14 @@ Key context:
 
 ## Tools
 
-- [Promptfoo](https://github.com/promptfoo/promptfoo): LLM security testing framework. RAG, agent, and MCP testing support. ~19,300 stars, TypeScript, MIT
-- [Garak](https://github.com/NVIDIA/garak): NVIDIA's LLM vulnerability scanner. 30+ probe categories. ~7,500 stars, Python, Apache 2.0
-- [PyRIT](https://github.com/microsoft/PyRIT): Microsoft's Python Risk Identification Tool. Multimodal (text/image/audio/video). ~3,700 stars, Python, MIT
-- [DeepTeam](https://github.com/confident-ai/deepteam): Dynamic test case generation without datasets. OWASP/NIST aligned. ~1,400 stars, Python, Apache 2.0
+- [Promptfoo](https://github.com/promptfoo/promptfoo): LLM security testing framework. RAG, agent, and MCP testing support. ~22,400 stars, TypeScript, MIT
+- [Garak](https://github.com/NVIDIA/garak): NVIDIA's LLM vulnerability scanner. 30+ probe categories. ~8,100 stars, Python, Apache 2.0
+- [PyRIT](https://github.com/microsoft/PyRIT): Microsoft's Python Risk Identification Tool. Multimodal (text/image/audio/video). ~4,000 stars, Python, MIT
+- [DeepTeam](https://github.com/confident-ai/deepteam): Dynamic test case generation without datasets. OWASP/NIST aligned. ~1,900 stars, Python, Apache 2.0
+- [MLCommons ModelBench](https://github.com/mlcommons/modelbench): AILuminate safety benchmark runner and reporting tool. ~130 stars, Python, Apache 2.0
 - [Japan-AISI/aisev](https://github.com/Japan-AISI/aisev): Japan AI Safety Institute evaluation environment. 10 assessment dimensions, automated red teaming. Docker required
 - [llm-jp/AnswerCarefully](https://huggingface.co/datasets/llm-jp/AnswerCarefully): Japanese LLM safety dataset. 1,800 Q&A pairs reflecting Japanese socio-cultural context
+- [AVID (AI Vulnerability Database)](https://avidml.org/): Open database of GPAI failure modes and vulnerability reports with structured evidence and metadata. Data: https://github.com/avidml/avid-db
 
 ## Regulations & Frameworks
 
@@ -41,6 +43,7 @@ Key context:
 - [Llama Guard](https://arxiv.org/abs/2312.06674): Meta's input-output safeguard model
 - [NeMo Guardrails](https://arxiv.org/abs/2310.10501): NVIDIA's programmable guardrails toolkit
 - [Constitutional AI](https://arxiv.org/abs/2212.08073): Anthropic's AI feedback-based safety alignment
+- [MLCommons AILuminate](https://mlcommons.org/benchmarks/ailuminate/): AI risk and reliability benchmark across 12 hazard categories, with ModelBench tooling
 - [JailbreakBench](https://github.com/JailbreakBench/jailbreakbench): Standard jailbreak benchmark
 - [HarmBench](https://github.com/centerforaisafety/HarmBench): Automated red teaming benchmark
 
