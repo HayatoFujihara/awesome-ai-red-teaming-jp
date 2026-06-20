@@ -29,6 +29,7 @@ This list systematically organizes tools, regulations, attack techniques, defens
 - [🧰 Tools](#-tools)
   - [Open Source Tools](#open-source-tools)
   - [Tools & Datasets from Japan](#tools--datasets-from-japan)
+  - [Benchmarks & Databases](#benchmarks--databases)
   - [Other Tools](#other-tools)
   - [Commercial Tools & Services](#commercial-tools--services)
 - [📜 Regulations & Frameworks](#-regulations--frameworks)
@@ -51,14 +52,15 @@ Tools for conducting AI Red Teaming. If you're unsure where to start, try **Prom
 
 ### Open Source Tools
 
-Star counts as of April 2026 (GitHub API verified).
+Star counts as of June 2026 (GitHub API verified).
 
 | Tool | Stars | Language | License | Features |
 |------|------:|----------|---------|----------|
-| [Promptfoo](https://github.com/promptfoo/promptfoo) | ~19,300 | TypeScript | MIT | RAG, agent & MCP testing, compliance mapping |
-| [Garak](https://github.com/NVIDIA/garak) | ~7,500 | Python | Apache 2.0 | By NVIDIA, probe modules, academic approach |
-| [PyRIT](https://github.com/microsoft/PyRIT) | ~3,700 | Python | MIT | By Microsoft, multimodal support, 80+ converters |
-| [DeepTeam](https://github.com/confident-ai/deepteam) | ~1,400 | Python | Apache 2.0 | Dynamic test case generation, OWASP/NIST mapping |
+| [Promptfoo](https://github.com/promptfoo/promptfoo) | ~22,400 | TypeScript | MIT | RAG, agent & MCP testing, compliance mapping |
+| [Garak](https://github.com/NVIDIA/garak) | ~8,100 | Python | Apache 2.0 | By NVIDIA, probe modules, academic approach |
+| [PyRIT](https://github.com/microsoft/PyRIT) | ~4,000 | Python | MIT | By Microsoft, multimodal support, 80+ converters |
+| [DeepTeam](https://github.com/confident-ai/deepteam) | ~1,900 | Python | Apache 2.0 | Dynamic test case generation, OWASP/NIST mapping |
+| [MLCommons ModelBench](https://github.com/mlcommons/modelbench) | ~130 | Python | Apache 2.0 | Run, aggregate, and report AILuminate safety benchmarks |
 
 #### Promptfoo
 
@@ -77,11 +79,19 @@ Star counts as of April 2026 (GitHub API verified).
 
 - [confident-ai/deepteam](https://github.com/confident-ai/deepteam) - Red teaming framework by the DeepEval team. Dynamically auto-generates test cases from vulnerability definitions, eliminating the need for pre-prepared datasets
 
+#### MLCommons ModelBench
+
+- [mlcommons/modelbench](https://github.com/mlcommons/modelbench) - Safety benchmark runner by the MLCommons AI Risk & Reliability Working Group. Uses ModelGauge to run SUTs (systems under test), then generates AILuminate hazard-level scores and reports
+
 ### Tools & Datasets from Japan
 
 - [Japan-AISI/aisev](https://github.com/Japan-AISI/aisev) - AI safety evaluation environment developed by Japan's AI Safety Institute (AISI). Features quantitative/qualitative evaluation across 10 assessment dimensions and automated red teaming. Requires Docker. Supports both Japanese and English (released September 2025, last updated December 2025)
 - [llm-jp/AnswerCarefully](https://huggingface.co/datasets/llm-jp/AnswerCarefully) - Japanese LLM safety dataset by NII's LLM-jp project. 1,800 Q&A pairs reflecting Japan's socio-cultural context. Useful for safety fine-tuning and as an evaluation benchmark — 📄 [Paper](https://arxiv.org/abs/2506.02372)
 - [llm-jp/awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm) - Comprehensive overview of Japanese LLMs. Useful for understanding the landscape of models before conducting safety evaluation
+
+### Benchmarks & Databases
+
+- [AVID (AI Vulnerability Database)](https://avidml.org/) - Open database of failure modes and vulnerability reports for general-purpose AI (GPAI) systems, with evidence, metadata, and reproducible evaluation details. Data repository: [avidml/avid-db](https://github.com/avidml/avid-db). Developer toolkit: [avidml/avidtools](https://github.com/avidml/avidtools)
 
 ### Other Tools
 
@@ -177,6 +187,7 @@ No silver bullet exists to block 100% of attacks. Effective defense is achieved 
 
 Benchmarks for quantitatively measuring defense effectiveness.
 
+- [MLCommons AILuminate](https://mlcommons.org/benchmarks/ailuminate/) - MLCommons AI risk and reliability benchmark. Safety v1.0 evaluates general-purpose chat systems in single-turn settings across 12 hazard categories, with public English and French results. The runner is [ModelBench](https://github.com/mlcommons/modelbench)
 - [JailbreakBench](https://github.com/JailbreakBench/jailbreakbench) - Standard jailbreak benchmark. 100 misuse behaviors across 10 categories
 - [HarmBench](https://github.com/centerforaisafety/HarmBench) - Standardized benchmark enabling fair comparison of attack and defense methods
 
