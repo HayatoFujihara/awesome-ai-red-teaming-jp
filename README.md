@@ -69,6 +69,7 @@ AI Red Teamingを実施するためのツール群。「何から始めればい
 
 #### Garak
 
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, orchestrating offensive tools as an MCP host with proof of exploitation and a local privacy gateway.
 - [NVIDIA/garak](https://github.com/NVIDIA/garak) - NVIDIAのAIレッドチームが開発したLLM脆弱性スキャナー。多数のプローブモジュール（30+カテゴリ）で幅広い攻撃パターンをカバー。シングルターンのモデル応答テストに特化
 
 #### PyRIT
