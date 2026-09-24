@@ -92,6 +92,7 @@ Star counts as of June 2026 (GitHub API verified).
 ### Benchmarks & Databases
 
 - [AVID (AI Vulnerability Database)](https://avidml.org/) - Open database of failure modes and vulnerability reports for general-purpose AI (GPAI) systems, with evidence, metadata, and reproducible evaluation details. Data repository: [avidml/avid-db](https://github.com/avidml/avid-db). Developer toolkit: [avidml/avidtools](https://github.com/avidml/avidtools)
+- [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) - Open database of real-world AI agent security incidents (354 records, Jan 2025 to Sep 2026). Every record links a primary source and separates confirmed harm (`real_harm`) from AI-involvement confidence (`ai_involvement`), with attack-type tags such as indirect prompt injection, MCP, and sandbox escape. JSON/CSV exports (CC BY 4.0) and an offline browser with a Japanese UI
 
 ### Other Tools
 

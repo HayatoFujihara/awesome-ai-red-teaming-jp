@@ -92,6 +92,7 @@ AI Red Teamingを実施するためのツール群。「何から始めればい
 ### ベンチマーク・データベース
 
 - [AVID (AI Vulnerability Database)](https://avidml.org/) - 汎用AI（GPAI）システムの失敗モードや脆弱性レポートを、証拠・メタデータ・再現可能な評価情報とともに収録するオープンデータベース。データ本体は [avidml/avid-db](https://github.com/avidml/avid-db)、開発者向けPythonツールは [avidml/avidtools](https://github.com/avidml/avidtools)
+- [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) - 実世界のAIエージェント・セキュリティインシデントのオープンデータベース（354件、2025年1月〜2026年9月）。全件に一次情報源へのリンクがあり、実被害の有無（`real_harm`）とAI関与の確度（`ai_involvement`）を区別して記録。間接プロンプトインジェクション・MCP・サンドボックス脱出などの攻撃種別タグ付き。JSON/CSVで提供（CC BY 4.0）、日本語UIを含むオフラインブラウザあり
 
 ### その他のツール
 
