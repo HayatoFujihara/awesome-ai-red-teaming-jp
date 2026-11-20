@@ -208,6 +208,7 @@ MCPは[60日間で30件のCVEが報告され、スキャンされたサーバー
 - [Promptfoo MCP Security Testing](https://www.promptfoo.dev/docs/red-team/mcp-security-testing/) - MCPサーバーのセキュリティテストガイド。直接テスト・統合テスト・マルチサーバーテストに対応
 - [promptfoo/evil-mcp-server](https://github.com/promptfoo/evil-mcp-server) - ツールポイズニング攻撃シミュレーション用の悪意あるMCPサーバー
 - [Adversa AI - Top MCP Security Resources](https://adversa.ai/blog/top-mcp-security-resources-march-2026/) - MCP セキュリティリソースのまとめ（2026年3月）
+- [HOL Guard](https://hol.org/guard) - 対応するAIコーディングエージェントのツール操作を実行前にローカルポリシーで確認し、許可・承認要求・拒否を行うオープンソースツール。
 
 ### 測定指標
 

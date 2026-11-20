@@ -208,6 +208,7 @@ MCP saw [30 CVEs reported in just 60 days, with 38% of scanned servers lacking a
 - [Promptfoo MCP Security Testing](https://www.promptfoo.dev/docs/red-team/mcp-security-testing/) - MCP server security testing guide. Supports direct, integration, and multi-server testing
 - [promptfoo/evil-mcp-server](https://github.com/promptfoo/evil-mcp-server) - Malicious MCP server for tool poisoning attack simulation
 - [Adversa AI - Top MCP Security Resources](https://adversa.ai/blog/top-mcp-security-resources-march-2026/) - MCP security resource compilation (March 2026)
+- [HOL Guard](https://hol.org/guard) - Open-source local policy checks for supported AI coding agents, with allow, approval, or block decisions before tool actions run.
 
 ### Key Metrics
 
